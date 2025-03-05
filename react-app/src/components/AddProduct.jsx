@@ -31,7 +31,7 @@ function AddProduct() {
 
          formData.append('image', image);
 
-        const url = 'http://localhost:4000/add-products'; // Ensure this URL is correct
+        const url = 'http://localhost:4000/add-product'; // Ensure this URL is correct
         axios.post(url, formData)
             .then((res) => {
                 console.log(res);
