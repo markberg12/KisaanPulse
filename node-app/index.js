@@ -48,6 +48,7 @@ app.post('/add-product',upload.single('image'),(req,res) =>{
     const location = req.body.location;
     const mobile = req.body.mobile;
     const image = req.file.path;
+    jaijclknclk
 
 
 
